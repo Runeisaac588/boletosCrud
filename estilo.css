@@ -1,0 +1,232 @@
+body{
+  background: url(./images/cine.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.l{
+  color: #fff;
+}
+.gri{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+
+}.v{
+  display: block;
+}
+.cc{
+  color: #fff;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.g{
+  margin: 2%;
+  width: 100%;
+}
+/*
+.formulario::before{
+  content: ''; 
+position: absolute;
+top: -50%;
+left: -50%;
+width: 380px;
+height: 420px;
+background: linear-gradient (0deg, transparent, #45f3ff,
+#45f3ff);
+transform-origin: bottom right;
+animation: animate 6s linear infinite;
+
+}
+.formulario::after{
+  content: ''; 
+  position: absolute;
+   top: -50%;
+left: -50%;
+width: 380px;
+height: 420px;
+background: linear-gradient (0deg, transparent, #45f3ff,
+#45f3ff);
+transform-origin: bottom right;
+animation: animate 6s linear infinite;
+animation-delay: -3s;
+
+}
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+   0%{
+    transform: rotate(360deg);
+  }
+}*/
+.CONFIRMA{
+  margin-top: 2%;
+}
+.f{
+  margin-top: 2%;
+}
+.email{
+  margin-top: -4%;
+}
+label{
+  font-size: 19px;
+}
+.titulo{
+  margin-top: -1%;
+  width: 100%;
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+.btn1{
+  width: 40%;
+  margin-left: 2%;
+border-radius: 4px;
+background-color: #84b6f4;
+border: none;
+    font-size: 16px;
+padding: 1.5%;
+cursor: pointer;
+
+}.btn2{
+  width: 40%;
+  margin-left: 8%;
+border-radius: 4px;
+background-color: #ff6961;
+border: none;
+    font-size: 16px;
+padding: 1.5%;
+cursor: pointer;
+}
+.lb{
+  width: 100%;
+  text-align: justify;
+  margin-bottom: 10%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.titulo3{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.cd{
+  width: 100%;
+  display: block;
+}
+.in{
+  padding: 2%;
+  width: 100%;
+  margin-bottom: 3%;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: -2%;
+border: none;
+
+}
+.element{
+  width: 100%;
+  overflow: scroll;
+    background-color: rgba(181, 171, 171, 0.582);
+    padding: 2%;
+    border-radius: 7px;
+}
+.b{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cont2{
+  margin-top: 2%;
+margin-bottom: 4%;
+  width: 90%;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+box-shadow: 10px 5px 5px #474b4b;
+  background-color: rgba(75, 71, 71, 0.618);
+padding: 4%;
+border-radius: 10px;
+
+}
+.formulario{
+  border-radius: 14px;
+  margin-top: 4%;
+  padding: 3%;
+  background-color: rgba(28, 26, 26, 0.618);
+  width: 40%;
+  color: #fff;
+}
+th{
+  background-color: rgb(17, 86, 118);
+  color:rgb(255, 255, 255);
+  font-size: 19px;
+
+}
+td{
+  color:#fff;
+  font-size: 17px;
+}
+.tablita{
+  width: 100%;
+  background-color: rgba(15, 15, 16, 0.57);
+  overflow: scroll;
+}
+.env{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.botonsito{
+   margin: 3%;
+  width: 87%;
+  border-radius: 13px;
+  background-color: #5086c1;
+  color: #fff;
+  height: 40px;
+  font-size: 17px;
+cursor: pointer;
+border: none;
+}
+@media (max-width:950px){
+  
+  body{
+    width: 100%;
+  }
+  .gri{
+    display:block;
+
+  }
+  .formulario{
+    width: 100%;
+  }
+  .cont{
+    width: 100%;
+  }
+  .cont2{
+    width: 100%;
+    margin: 0%;
+
+  }
+  .element{
+    width: 100%;
+
+  }.btn1{
+    font-size: 14px;
+  }
+  .btn2{
+    font-size: 14px;
+  }
+}
